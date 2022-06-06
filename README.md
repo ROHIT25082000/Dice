@@ -1,3 +1,3 @@
 # Dice
-Online Dice for board games.<br>
+Online Die for board games.<br>
 Made for fun!
