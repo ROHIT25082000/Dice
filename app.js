@@ -26,7 +26,7 @@ buttonRoll.addEventListener('click', function(e){
         let curr_score = parseInt(score_board.textContent.substring(8)); 
         console.log(curr_score);
         score_board.textContent = `Score : ${curr_score + dieValue}`;
-        die.setAttribute('src', `images/${dieValue}.png`)
+        die.setAttribute('src', `./images/${dieValue}.png`)
     },200);
     let dieSound = new Audio("dice.wav");
     dieSound.play();
@@ -43,7 +43,7 @@ buttonReset.addEventListener('click', function(e) {
         die.classList.remove('rolled');
         curr_roll.textContent = `${1}`;      
         score_board.textContent = `Score : 0`;
-        die.setAttribute('src', `images/1.png`)
+        die.setAttribute('src', `./images/1.png`)
     },200);  
 
 }); 
